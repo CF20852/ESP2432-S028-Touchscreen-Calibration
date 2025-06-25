@@ -137,7 +137,7 @@ void log_print(lv_log_level_t level, const char * buf) {
 }
 
 // Declare function to get the Raw Touchscreen data
-void touchscreen_read_pts(bool, bool, int, int);
+void touchscreen_read_pts(bool, bool *, int *, int *);
 
 /* Declare function to display a user instruction upon startup */
 void lv_display_instruction(void);
